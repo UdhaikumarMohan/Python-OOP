@@ -19,6 +19,8 @@ class Cars:
 
     def Car_Details(self):
 
+        print("Fetching details of car")
+
         return f"Register No. {self.RegNo} is a {self.Colour} colour {self.Brand_Name} owned by {self.Owner_Name}"
     
 Car_1 = Cars("Agarvin", "A102", "White", "BMW")
