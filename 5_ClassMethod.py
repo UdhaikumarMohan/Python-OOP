@@ -34,7 +34,7 @@ class Employee:
 
         print (f"Name: {self.Name}, Age: {self.Age}, Designation: {self.Designation}")
 
-## Class method is a decorator which is used to change class variable using object variable.
+## @classmethod is a decorator which is used to declare methods as a class's method.
 ## cls is an Argument which referes the class of the object we are using.
 ## It is same like self but for the class
 ## By calling this method using object name. It will change the Class variable.
@@ -44,7 +44,7 @@ class Employee:
 
         cls.Designation = New_Designation
 
-#In this object we have not give designation, so it will take designation form the class
+# In this object we have not give designation, so it will take designation form the class
 
 Emp_1 = Employee("Udhai", 27,)
 Emp_1.Emp_details()

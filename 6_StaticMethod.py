@@ -14,7 +14,7 @@ class Store:
     #declare instance method
     def product_details(self):
 
-        return f"This is a {self.Brand} {(self.self)}, price {self.Price} from {self.Store_Name}"
+        return f"This is a {self.Brand} Headset, price {self.Price} from {self.Store_Name}"
 
     #declare classmethod
     @classmethod
