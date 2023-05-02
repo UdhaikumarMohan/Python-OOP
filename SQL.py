@@ -15,7 +15,7 @@ cursor = Connection.cursor()
 # cursor.execute("Create table NewTable(Name varchar(50) constraint Newkey primary key, Age int, Designation varchar(50))")
 
 # To insert, update, delete
-cursor.execute("insert into employee values(7, 'Guna', 29)")
+cursor.execute("insert into employee values(8, 'Pradeep', 29)")
 cursor.execute("update employee set empage = 30 where empname = 'Arun'")
 
 # execution will be reflected in DB only if commit is given.
